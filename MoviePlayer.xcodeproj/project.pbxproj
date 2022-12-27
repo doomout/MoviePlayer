@@ -16,6 +16,7 @@
 		AD1504A3295B385300C8188D /* Fireworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD1504A0295B385300C8188D /* Fireworks.jpg */; };
 		AD1504A4295B385300C8188D /* FastTyping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD1504A1295B385300C8188D /* FastTyping.jpg */; };
 		AD1504A5295B385300C8188D /* FastTyping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD1504A2295B385300C8188D /* FastTyping.mp4 */; };
+		AD1504A7295B3A9E00C8188D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD1504A6295B3A9E00C8188D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AD1504A0295B385300C8188D /* Fireworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks.jpg; sourceTree = "<group>"; };
 		AD1504A1295B385300C8188D /* FastTyping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FastTyping.jpg; sourceTree = "<group>"; };
 		AD1504A2295B385300C8188D /* FastTyping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FastTyping.mp4; sourceTree = "<group>"; };
+		AD1504A6295B3A9E00C8188D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		AD15047F295B37D100C8188D = {
 			isa = PBXGroup;
 			children = (
+				AD1504A6295B3A9E00C8188D /* README.md */,
 				AD15048A295B37D100C8188D /* MoviePlayer */,
 				AD150489295B37D100C8188D /* Products */,
 			);
@@ -145,6 +148,7 @@
 				AD1504A3295B385300C8188D /* Fireworks.jpg in Resources */,
 				AD150498295B37D100C8188D /* LaunchScreen.storyboard in Resources */,
 				AD1504A5295B385300C8188D /* FastTyping.mp4 in Resources */,
+				AD1504A7295B3A9E00C8188D /* README.md in Resources */,
 				AD1504A4295B385300C8188D /* FastTyping.jpg in Resources */,
 				AD150495295B37D100C8188D /* Assets.xcassets in Resources */,
 				AD150493295B37D100C8188D /* Main.storyboard in Resources */,
