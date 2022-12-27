@@ -13,6 +13,9 @@
 		AD150493295B37D100C8188D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD150491295B37D100C8188D /* Main.storyboard */; };
 		AD150495295B37D100C8188D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD150494295B37D100C8188D /* Assets.xcassets */; };
 		AD150498295B37D100C8188D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD150496295B37D100C8188D /* LaunchScreen.storyboard */; };
+		AD1504A3295B385300C8188D /* Fireworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD1504A0295B385300C8188D /* Fireworks.jpg */; };
+		AD1504A4295B385300C8188D /* FastTyping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD1504A1295B385300C8188D /* FastTyping.jpg */; };
+		AD1504A5295B385300C8188D /* FastTyping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD1504A2295B385300C8188D /* FastTyping.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AD150494295B37D100C8188D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD150497295B37D100C8188D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD150499295B37D100C8188D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1504A0295B385300C8188D /* Fireworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks.jpg; sourceTree = "<group>"; };
+		AD1504A1295B385300C8188D /* FastTyping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FastTyping.jpg; sourceTree = "<group>"; };
+		AD1504A2295B385300C8188D /* FastTyping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FastTyping.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		AD15048A295B37D100C8188D /* MoviePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				AD15049F295B381200C8188D /* Resources */,
 				AD15048B295B37D100C8188D /* AppDelegate.swift */,
 				AD15048D295B37D100C8188D /* SceneDelegate.swift */,
 				AD15048F295B37D100C8188D /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				AD150499295B37D100C8188D /* Info.plist */,
 			);
 			path = MoviePlayer;
+			sourceTree = "<group>";
+		};
+		AD15049F295B381200C8188D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD1504A1295B385300C8188D /* FastTyping.jpg */,
+				AD1504A2295B385300C8188D /* FastTyping.mp4 */,
+				AD1504A0295B385300C8188D /* Fireworks.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD1504A3295B385300C8188D /* Fireworks.jpg in Resources */,
 				AD150498295B37D100C8188D /* LaunchScreen.storyboard in Resources */,
+				AD1504A5295B385300C8188D /* FastTyping.mp4 in Resources */,
+				AD1504A4295B385300C8188D /* FastTyping.jpg in Resources */,
 				AD150495295B37D100C8188D /* Assets.xcassets in Resources */,
 				AD150493295B37D100C8188D /* Main.storyboard in Resources */,
 			);
@@ -292,8 +312,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,8 +338,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
