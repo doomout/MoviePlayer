@@ -1,13 +1,9 @@
-//
-//  ViewController.swift
-//  MoviePlayer
-//
-//  Created by 현구김 on 2022/12/27.
-//
 
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,5 +11,11 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func btnPlayInternalMovie(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func btnPlayExternalMovie(_ sender: UIButton) {
+    }
 }
 
